@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pogodi broj</title>
+
+</head>
+<body>
+    <header>
+    <button id="themeToggle" class="theme-btn">🌙 Dark / ☀️ Light</button>
+    <h1 class="typewriter"></h1>
+    <div class="vs">
+        <input type="text"class="cell2" maxlength="2">
+        <h1>VS</h1>
+        <input type="text"class="cell2" maxlength="2">
+    </div>
+    <div class="win">
+        <input type="text"class="cell3" maxlength="1">
+        <input type="text"class="cell3" maxlength="1">
+    </div>
+</header>
+
+<h2>Moj broj:</h2>
+
+<div class="guess-input">
+    <input type="text" class="cell" maxlength="1">
+    <input type="text" class="cell" maxlength="1">
+    <input type="text" class="cell" maxlength="1">
+    <input type="text" class="cell" maxlength="1">
+    <input type="text" class="cell" maxlength="1">
+</div>
+
+<h3>Moji pokušaji za<br>pogađanje broja:</h3>
+
+<!-- DODAJEM 5 REDOVA PO 5 POLJA -->
+<div id="attempts"></div>
+<button id="deleteBtn">Obriši</button>
